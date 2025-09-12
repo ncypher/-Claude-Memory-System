@@ -317,19 +317,19 @@ cat claude_memory_template.md
 </div>
 
 ```mermaid
-gitgraph
-    commit id: "Initial Memory System"
-    branch feature/templates
-    commit id: "Add Developer Template"
-    commit id: "Add Student Template"
-    checkout main
-    merge feature/templates
-    branch feature/advanced
-    commit id: "Multi-Context Support"
-    commit id: "Memory Versioning"
-    checkout main
-    merge feature/advanced
-    commit id: "Community Examples"
+graph TD
+    A[Initial Memory System] --> B[Add Templates]
+    B --> C[Add Developer Template]
+    B --> D[Add Student Template]
+    C --> E[Merge Templates]
+    D --> E
+    E --> F[Multi-Context Support]
+    F --> G[Memory Versioning]
+    G --> H[Community Examples]
+    
+    style A fill:#2196f3,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    style E fill:#ff9800,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    style H fill:#4caf50,stroke:#ffffff,stroke-width:2px,color:#ffffff
 ```
 
 ### Ways to Contribute:
@@ -349,23 +349,25 @@ gitgraph
 </div>
 
 ```mermaid
-timeline
-    title Claude Memory System Evolution
+graph LR
+    A[V1.0 Current] --> B[V2.0 Coming Soon]
+    B --> C[V3.0 Future]
     
-    section V1.0 (Current)
-        Basic Memory Template    : ✅ Complete
-        Conversation Search      : ✅ Complete
-        Multi-Context Support    : ✅ Complete
-        
-    section V2.0 (Coming Soon)
-        Memory Analytics         : 🔄 In Progress
-        Advanced Templates       : 🔄 In Progress
-        Integration Guides       : 🔄 In Progress
-        
-    section V3.0 (Future)
-        Auto Memory Updates      : 🔮 Planned
-        Cross-Platform Sync      : 🔮 Planned
-        AI Memory Insights       : 🔮 Planned
+    A --> A1[Basic Memory Template ✅]
+    A --> A2[Conversation Search ✅]
+    A --> A3[Multi-Context Support ✅]
+    
+    B --> B1[Memory Analytics 🔄]
+    B --> B2[Advanced Templates 🔄]
+    B --> B3[Integration Guides 🔄]
+    
+    C --> C1[Auto Memory Updates 🔮]
+    C --> C2[Cross-Platform Sync 🔮]
+    C --> C3[AI Memory Insights 🔮]
+    
+    style A fill:#4caf50,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    style B fill:#ff9800,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    style C fill:#2196f3,stroke:#ffffff,stroke-width:2px,color:#ffffff
 ```
 
 ---
