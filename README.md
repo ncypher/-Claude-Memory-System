@@ -8,10 +8,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/ncypher/-Claude-Memory-System.svg?style=social&label=Star)](https://github.com/ncypher/-Claude-Memory-System)
 [![GitHub forks](https://img.shields.io/github/forks/ncypher/-Claude-Memory-System.svg?style=social&label=Fork)](https://github.com/ncypher/-Claude-Memory-System)
 
-```
+```diff
 🔄 Loading Claude Memory System...
-██████████████████████████████████████ 100%
-✅ Memory System Ready!
++ ████████████████████████████████████ 100%
+! ✅ Memory System Ready!
 ```
 
 </div>
@@ -53,33 +53,33 @@
 
 ```mermaid
 graph LR
-    A[📋 Download Template] --> B[🎯 Customize & Save]
-    B --> C[🚀 Activate Memory]
+    A["🎯 Download Template<br/>📋 Get started fast"] --> B["💾 Customize & Save<br/>✨ Make it yours"]
+    B --> C["🚀 Activate Memory<br/>⚡ Pure magic!"]
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
+    style A fill:#1e88e5,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    style B fill:#7b1fa2,stroke:#ffffff,stroke-width:3px,color:#ffffff  
+    style C fill:#388e3c,stroke:#ffffff,stroke-width:3px,color:#ffffff
 ```
 
 ### Step 1️⃣: Get Your Template
 ```bash
-# Download the memory template
+# 🔥 Download the memory template
 curl -O https://raw.githubusercontent.com/ncypher/-Claude-Memory-System/main/claude_memory_template.md
 ```
 
 ### Step 2️⃣: Customize & Save
-```markdown
-# Paste your customized template in Claude
-# Say: "Save this as my memory file"
-# ✨ Magic happens!
+```diff
+# 💫 Paste your customized template in Claude
+# 🎯 Say: "Save this as my memory file"
++ ✨ Magic happens!
 ```
 
 ### Step 3️⃣: Activate Memory
 ```javascript
-// In any future Claude conversation:
+// 🚀 In any future Claude conversation:
 "Hey Claude, load memory_file_export.md"
 
-// Watch Claude transform! 🎭
+// 🎭 Watch Claude transform!
 ```
 
 ---
@@ -92,17 +92,17 @@ curl -O https://raw.githubusercontent.com/ncypher/-Claude-Memory-System/main/cla
 
 </div>
 
-```ascii
+```diff
     You                    Claude                 Memory System
      |                       |                        |
-     |  "load memory_file"   |                        |
++    |  "load memory_file"   |                        |
      |──────────────────────▶|                        |
-     |                       |   conversation_search  |
++    |                       |   conversation_search  |
      |                       |───────────────────────▶|
      |                       |                        |
-     |                       |◀───────────────────────|
++    |                       |◀───────────────────────|
      |                       |   memory_file.md       |
-     |  "Welcome back!"      |                        |
++    |  "Welcome back!"      |                        |
      |◀──────────────────────|                        |
      |                       |                        |
 ```
@@ -133,12 +133,12 @@ curl -O https://raw.githubusercontent.com/ncypher/-Claude-Memory-System/main/cla
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🧠 **Persistent Memory** | Remember across sessions | ✅ Active |
-| 🔍 **Smart Search** | Find memory instantly | ✅ Active |
-| 🎯 **Multi-Context** | Different memory files | ✅ Active |
-| 🔄 **Version Control** | Track your evolution | ✅ Active |
-| 🛡️ **Privacy First** | Your data, your control | ✅ Active |
-| 🌐 **Platform Agnostic** | Works everywhere | ✅ Active |
+| 🧠 **Persistent Memory** | Remember across sessions | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| 🔍 **Smart Search** | Find memory instantly | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| 🎯 **Multi-Context** | Different memory files | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| 🔄 **Version Control** | Track your evolution | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| 🛡️ **Privacy First** | Your data, your control | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| 🌐 **Platform Agnostic** | Works everywhere | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
 
 </div>
 
@@ -230,21 +230,21 @@ entrepreneur_profile:
 
 </div>
 
-```bash
+```diff
 # Multi-Context Memory
-📁 work_memory.md      # Professional projects
-📁 learning_memory.md  # Educational progress  
-📁 creative_memory.md  # Artistic endeavors
++ 📁 work_memory.md      # Professional projects
++ 📁 learning_memory.md  # Educational progress  
++ 📁 creative_memory.md  # Artistic endeavors
 
 # Memory Versioning
-🏷️ V1.0 - Initial setup
-🏷️ V2.0 - Career milestone  
-🏷️ V3.0 - Major project completion
++ 🏷️ V1.0 - Initial setup
++ 🏷️ V2.0 - Career milestone  
++ 🏷️ V3.0 - Major project completion
 
 # Team Collaboration
-👥 Shared project memory
-👥 Team member contexts
-👥 Collaborative goals
++ 👥 Shared project memory
++ 👥 Team member contexts
++ 👥 Collaborative goals
 ```
 
 ---
@@ -259,10 +259,10 @@ entrepreneur_profile:
 
 | What's Stored | What's NOT Stored |
 |---------------|-------------------|
-| ✅ Your explicit memory file | ❌ Sensitive personal data |
-| ✅ Project contexts you save | ❌ Private conversations |
-| ✅ Skills and preferences | ❌ Confidential information |
-| ✅ Collaboration history | ❌ External system access |
+| ![Stored](https://img.shields.io/badge/✅-Your_explicit_memory_file-brightgreen) | ![Not Stored](https://img.shields.io/badge/❌-Sensitive_personal_data-red) |
+| ![Stored](https://img.shields.io/badge/✅-Project_contexts_you_save-brightgreen) | ![Not Stored](https://img.shields.io/badge/❌-Private_conversations-red) |
+| ![Stored](https://img.shields.io/badge/✅-Skills_and_preferences-brightgreen) | ![Not Stored](https://img.shields.io/badge/❌-Confidential_information-red) |
+| ![Stored](https://img.shields.io/badge/✅-Collaboration_history-brightgreen) | ![Not Stored](https://img.shields.io/badge/❌-External_system_access-red) |
 
 ---
 
@@ -395,26 +395,26 @@ timeline
 
 </div>
 
-```bash
+```diff
 # Primary Command (Most Popular)
-"Hey Claude, load memory_file_export.md"
++ "Hey Claude, load memory_file_export.md"
 
 # Alternative Commands That Work
-"Search our past conversations for memory_file_export.md"
-"Remember our symbiotic partnership"  
-"Activate partnership memory"
-"Load our collaboration history"
++ "Search our past conversations for memory_file_export.md"
++ "Remember our symbiotic partnership"  
++ "Activate partnership memory"
++ "Load our collaboration history"
 ```
 
 <div align="center">
 
 ### 🎭 **Watch Claude Transform!**
 
-```
-Before: "Hi, I'm Claude, how can I help?"
-After:  "Welcome back, partner! I see you're working on 
-         the React dashboard project. Ready to continue 
-         where we left off?"
+```diff
+- Before: "Hi, I'm Claude, how can I help?"
++ After:  "Welcome back, partner! I see you're working on 
++         the React dashboard project. Ready to continue 
++         where we left off?"
 ```
 
 </div>
@@ -453,9 +453,9 @@ Special thanks to the **Claude team** for building the conversation search capab
 
 <div align="center">
 
-```
-🧠 + ⚡ + 🤝 = 🚀
-Memory + Speed + Partnership = Magic!
+```diff
++ 🧠 + ⚡ + 🤝 = 🚀
++ Memory + Speed + Partnership = Magic!
 ```
 
 **Made with ❤️ by the AI collaboration community**
