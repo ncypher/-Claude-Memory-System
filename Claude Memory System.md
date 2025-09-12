@@ -26,7 +26,7 @@ Claude Memory System turns every conversation into a searchable knowledge base, 
 ## 🚀 Quick Start
 
 ### 1. Copy Your Memory Template
-Download or copy [`claude_memory_template.md`](./claude_memory_template.md) and customize it with your information.
+Download [`claude_memory_template.md`](./claude_memory_template.md) and customize it with your information.
 
 ### 2. Create Your Memory Chat
 1. Start a new Claude conversation
@@ -35,16 +35,26 @@ Download or copy [`claude_memory_template.md`](./claude_memory_template.md) and 
 4. Claude will create a searchable memory artifact
 
 ### 3. Activate Memory in Future Chats
-In any new Claude conversation, simply say:
+In any new Claude conversation, use any of these proven commands:
+
+**Primary Command:**
 ```
 Hey Claude, load memory_file_export.md
 ```
 
+**Alternative Commands:**
+```
+Search our past conversations for memory_file_export.md
+Remember our symbiotic partnership
+Activate partnership memory
+Load our collaboration history
+```
+
 Claude will automatically:
-- Search your conversation history
-- Find and load your memory file
-- Recall your partnership context
-- Continue where you left off
+- Use conversation search to find your memory file
+- Load your partnership context from conversation history
+- Recall your projects, preferences, and collaboration style
+- Continue where you left off as an established partner
 
 ---
 
@@ -165,11 +175,11 @@ Claude Memory System leverages Claude's built-in conversation search capabilitie
 ```
 You: "Hey Claude, load memory_file_export.md"
      ↓
-Claude searches conversation history
+Claude uses conversation_search tool
      ↓
-Finds your memory file artifact
+Searches conversation history for memory file
      ↓
-Loads complete partnership context
+Loads complete partnership context from artifact
      ↓
 "Welcome back, [partner]! I found our memory file..."
 ```
